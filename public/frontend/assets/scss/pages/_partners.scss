@@ -1,0 +1,20 @@
+.qc-partner-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+
+    .qc-partner {
+        transition: var(--standard-medium);
+        width: calc((100% / 6) - 5px);
+        // filter: grayscale(100%);
+        opacity: .8;
+
+        // &:hover,
+        &.active {
+            filter: grayscale(0);
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+}

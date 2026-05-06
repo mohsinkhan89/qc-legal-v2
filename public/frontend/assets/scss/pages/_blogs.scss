@@ -1,0 +1,105 @@
+.mainnews-card {
+    article {
+        background-color: var(--qc-light);
+        padding: 10px;
+        border: 1px solid rgba(0 0 0 / 10%);
+        border-radius: 20px;
+
+        &.infographic-article {
+            .lqd-lp-img, figure {
+                height: 100%;
+            }
+
+            figure {
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                }
+            }
+        }
+
+        &.infographic-article-new {
+            .lqd-lp-img {
+                height: 400px;
+
+                img {
+                    height: 100%;
+                }
+            }
+        }
+
+        .lqd-lp-title {
+            height: 60px;
+        }
+
+        .lqd-lp-img {
+            border-radius: 15px;
+        }
+
+        .lqd-lp-excerpt {
+            min-height: 120px;
+        }
+
+        footer {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            background-color: var(--qc-secondary);
+            color: var(--qc-white);
+            width: 100%;
+            text-align: center;
+            padding: 5px 0px;
+            border-radius: 0px 0px 20px 20px;
+
+            a {
+                color: var(--qc-white);
+            }
+        }
+    }
+
+    &.infographics {
+        article {
+            .lqd-lp-img {
+                margin-bottom: 40px;
+            }
+        }
+    }
+}
+
+.set-blog-detail {
+    padding-top: 500px;
+}
+
+.lqd-fb-content.lqd-overlay {
+    display: none !important;
+}
+
+.qc-infographic-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .qc-infographic-title {
+        width: 100%;
+        border-bottom: 2px dashed var(--qc-secondary);
+        margin-bottom: 10px;
+    }
+
+    .qc-infographic-image {
+        width: 100%;
+        // max-width: 400px;
+        border: 2px solid var(--qc-primary);
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.qc-object-position-top {
+    object-position: top;
+}

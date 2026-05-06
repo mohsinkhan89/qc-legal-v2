@@ -1,0 +1,400 @@
+.qc-position-absolute {
+    position: absolute;
+}
+
+.qc-position-relative {
+    position: relative;
+}
+
+.qc-w-100 {
+    width: 100%;
+}
+
+.qc-w-100-important {
+    width: 100% !important;
+}
+
+.qc-blog-card-set-important {
+    width: 100% !important;
+    padding: 0px 30px !important;
+
+    p {
+        line-height: 20px;
+    }
+
+}
+
+.qc-w-90 {
+    width: 90%;
+}
+
+.qc-h-100 {
+    height: 100%;
+}
+
+.qc-h-100-important {
+    height: 100% !important;
+}
+
+.qc-z-1 {
+    z-index: 1;
+}
+
+.qc-text-gold {
+    color: var(--qc-gold);
+}
+
+.qc-text-primary {
+    color: var(--qc-primary);
+}
+
+.qc-text-secondary {
+    color: var(--qc-secondary);
+}
+
+.qc-text-danger {
+    color: var(--qc-danger);
+}
+
+.qc-bg-secondary-light {
+    background-color: var(--qc-secondary-light);
+}
+
+.qc-bg-light {
+    background-color: var(--qc-light);
+}
+
+.qc-bg-dark {
+    background-color: var(--qc-dark);
+}
+
+.qc-bg-transparent {
+    background-color: transparent;
+}
+
+.qc-bg-primary {
+    background: var(--qc-primary);
+}
+
+.qc-bg-secondary {
+    background: var(--qc-secondary);
+}
+
+.qc-bg-secondary-important {
+    background: var(--qc-secondary) !important;
+}
+
+.qc-fw-600 {
+    font-weight: 600;
+}
+
+.btn-solid {
+    &:hover {
+        border-color: var(--qc-white);
+    }
+}
+
+.qc-btn-primary {
+    background-color: var(--qc-primary);
+    border-color: var(--qc-primary);
+    color: var(--qc-white);
+
+    &:hover {
+        border-color: var(--qc-primary);
+    }
+}
+
+.qc-btn-secondary {
+    background-color: var(--qc-secondary);
+    border-color: var(--qc-secondary);
+    color: var(--qc-white);
+
+    &:hover {
+        border-color: var(--qc-secondary);
+    }
+}
+
+.qc-hr {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(0 0 0 / 10%);
+}
+
+.qc-standard-blur {
+    backdrop-filter: blur(5px);
+}
+
+.qc-h-200 {
+    height: 200px;
+}
+
+.qc-pl-2 {
+    padding-left: 2px;
+}
+
+.qc-seperator {
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed;
+    margin-top: 9px;
+    margin-bottom: 10px;
+
+    &.customize-contact-form {
+        width: 75%;
+    }
+}
+
+.mb-0-important {
+    margin-bottom: 0px !important;
+}
+
+.filter-b0-i1 {
+    filter: brightness(0) invert(1);
+}
+
+.qc-disabled {
+    pointer-events: none;
+    user-select: none;
+    touch-action: none;
+    opacity: 0.6;
+}
+
+.hide-status {
+    &.hide-true {
+        display: none;
+    }
+}
+
+// .qc-sticky-top {
+//     position: sticky;
+
+//     &.top10px {
+//         top: 10px;
+//     }
+// }
+
+
+.stop-scroll {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.qc-floating-label {
+    input {
+        padding-top: 10px;
+    }
+
+    textarea {
+        line-height: 15px;
+        padding-top: 25px;
+    }
+
+    label {
+        position: absolute;
+        top: 15px;
+        left: 0px;
+        font-size: .8rem;
+        color: var(--qc-black);
+        transition: var(--standard-medium);
+        pointer-events: none;
+    }
+
+    &.active {
+        label {
+            font-size: .7rem;
+            top: 0px;
+        }
+    }
+}
+
+.qc-terms-check {
+    font-size: .9rem;
+    line-height: 20px;
+
+    input {
+        width: 15px !important;
+        height: 15px !important;
+        aspect-ratio: 1;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+}
+
+// form validation classes
+.text-invalid {
+    border-color: var(--qc-danger);
+    transition: all 200ms ease-in, all 1500ms ease-out;
+}
+
+.file-invalid {
+    border-color: var(--qc-danger) !important;
+    transition: all 200ms ease-in, all 1500ms ease-out !important;
+}
+
+.check-invalid {
+    color: var(--qc-danger);
+    transition: all 200ms ease-in, all 1500ms ease-out;
+}
+
+@keyframes floatY {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.animate-floatY {
+    animation: floatY 3s infinite ease-in-out;
+}
+
+@keyframes floatX {
+    0% {
+        transform: translateX(-20px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+.animate-floatX {
+    animation: floatX 3s infinite ease-in-out;
+}
+
+@keyframes rotateStep {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-rotateStep {
+    animation: rotateStep 4s infinite ease-in-out;
+}
+
+.animate-pulseeffect {
+    position: relative;
+    display: inline-block;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        background: rgba(255 255 255 / 30%);
+        border-radius: 50%;
+        transform: translate(-50%, -50%) scale(1);
+        animation: pulse-ring 1.5s infinite ease-out;
+        z-index: 0;
+    }
+
+    i {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0;
+    }
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// This is for 2 lines
+.text-ellipsis-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// This is for 3 lines
+.text-ellipsis-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+// This is for 4 lines
+.text-ellipsis-4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+
+.qc-transition-fast {
+    transition: var(--standard-fast);
+}
+
+.qc-transition-medium {
+    transition: var(--standard-medium);
+}
+
+.qc-transition-slow {
+    transition: var(--standard-slow);
+}
+
+.no-custom-select {
+    .ui-corner-all {
+        display: none;
+    }
+
+    select {
+        &.show {
+            display: block !important;
+        }
+    }
+}
+
+.cleanbox {
+    @include cleanbox();
+}
+
+.qc-text-justify {
+    text-align: justify !important;
+}

@@ -1,0 +1,14 @@
+.lqd-active-row-dark .lqd-stack-page-number,
+.lqd-active-row-light .lqd-stack-page-number {
+    display: none;
+}
+
+.carousel-white {
+    .flickity-button {
+        color: var(--qc-white);
+    }
+
+    .carousel-nav .lqd-carousel-slides {
+        color: var(--qc-white);
+    }
+}

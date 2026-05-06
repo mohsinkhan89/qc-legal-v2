@@ -1,0 +1,20 @@
+:root {
+    // colors
+    --qc-primary: #0B223E;
+    --qc-secondary: #988460;
+    --qc-secondary-light: #9884609d;
+    --qc-light: #181b310a;
+    --qc-dark: #333333;
+    --qc-white: #ffffff;
+    --qc-black: #000000;
+    --qc-danger: #E72236;
+    --qc-theme-light: #f1f5f8;
+    --qc-gold: #e2ba35;
+
+    // transitions
+    --standard-slow: 300ms ease;
+    --standard-medium: 200ms ease;
+    --standard-fast: 100ms ease;
+
+    --plyr-color-main: var(--qc-secondary);
+}

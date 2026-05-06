@@ -1,0 +1,161 @@
+// MEDIA QUERY
+
+// min width
+@mixin min_breakpoints($breakpoint) {
+    @if $breakpoint == xsmall {
+        @media only screen and (min-width: 0px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == small {
+        @media only screen and (min-width: 310px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == medium {
+        @media only screen and (min-width: 760px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == large {
+        @media only screen and (min-width: 990px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == mlarge {
+        @media only screen and (min-width: 1190px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xlarge {
+        @media only screen and (min-width: 1390px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xxlarge {
+        @media only screen and (min-width: 1930px) {
+            @content;
+        }
+    }
+}
+
+// max width
+@mixin max_breakpoints($breakpoint) {
+    @if $breakpoint == xsmall {
+        @media only screen and (max-width: 375px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == small {
+        @media only screen and (max-width: 510px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == medium {
+        @media only screen and (max-width: 920px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == large {
+        @media only screen and (max-width: 990px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == mlarge {
+        @media only screen and (max-width: 1190px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xlarge {
+        @media only screen and (max-width: 1390px) {
+            @content;
+        }
+    }
+
+    @else if $breakpoint == xxlarge {
+        @media only screen and (max-width: 1590px) {
+            @content;
+        }
+    }
+}
+
+// only width
+@mixin only_breakpoints($breakpoint) {
+    @if $breakpoint == tablet_landscape {
+        @media only screen and (min-width: 920px) and (max-width: 1190px) {
+            @content;
+        }
+    }
+}
+
+@mixin disable_interaction() {
+    pointer-events: none;
+    user-select: none;
+    touch-action: none;
+}
+
+@mixin enable_interaction() {
+    pointer-events: all;
+    user-select: all;
+    touch-action: all;
+}
+
+@mixin cleanbox {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+// FLEX
+// @mixin flex-center-both($direction: null) {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     @if $direction {
+//         flex-direction: $direction;
+//     }
+// }
+
+// @mixin flex-center-x($direction: null) {
+//     display: flex;
+
+//     @if $direction {
+//         flex-direction: $direction;
+//     }
+
+//     @if $direction == row {
+//         align-items: center;
+//     }
+
+//     @if $direction == column {
+//         justify-content: center;
+//     }
+// }
+
+// @mixin flex-center-y($direction: null) {
+//     display: flex;
+
+//     @if $direction {
+//         flex-direction: $direction;
+//     }
+
+//     @if $direction == row {
+//         justify-content: center;
+//     }
+
+//     @if $direction == column {
+//         align-items: center;
+//     }
+// }

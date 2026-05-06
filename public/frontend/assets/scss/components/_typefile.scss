@@ -1,0 +1,42 @@
+.qc-custom-file-upload {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: 2px dashed #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--qc-light);
+    transition: var(--standard-medium);
+    margin-bottom: 20px;
+
+    &:hover {
+        border-color: var(--qc-dark);
+        background-color: var(--qc-light);
+    }
+
+    input[type="file"] {
+        display: none;
+    }
+
+    .upload-placeholder {
+        color: #333;
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .upload-label {
+        display: block;
+        font-weight: 600;
+        font-size: .9rem;
+        color: var(--qc-black);
+    }
+
+    .upload-filename {
+        display: block;
+        font-size: .8rem;
+        color: #555;
+    }
+
+}
