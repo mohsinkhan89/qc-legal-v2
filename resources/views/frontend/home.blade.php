@@ -648,34 +648,47 @@
                     <div class="qc-faq-list custom-faqs">
                         <details class="qc-faq-item" name="faq" open>
                             <summary class="qc-faq-summary">
-                                What does QC Legal specialize in?
+                                <span>
+                                    What does QC Legal specialize in?
+                                </span>
                                 <div class="faq-icon-wrap"><i class="fa-solid fa-chevron-down"></i></div>
                             </summary>
                             <div class="qc-faq-content">
-                                <p>QC Legal specializes in legal recruitment, with a focus on building legal teams. We work with candidates and law firms across the UK, helping place lawyers at all levels from trainees to senior partners.</p>
+                                <p>
+                                    QC Legal specializes in legal recruitment, with a focus on building legal teams. We work with candidates and law firms across the UK, helping place lawyers at all levels from trainees to senior partners.
+                                </p>
                             </div>
                         </details>
                         <details class="qc-faq-item" name="faq">
                             <summary class="qc-faq-summary">
-                                What types of roles does QC Legal recruit for?
+                                <span>
+                                    What types of roles does QC Legal recruit for?
+                                </span>
                                 <div class="faq-icon-wrap"><i class="fa-solid fa-chevron-down"></i></div>
                             </summary>
                             <div class="qc-faq-content">
-                                <p>QC Legal recruits for a wide range of legal positions, including newly qualified solicitor jobs, partner placements at both senior equity and fixed share levels and in-house legal team roles from General Counsel downward.</p>
+                                <p>
+                                    QC Legal recruits for a wide range of legal positions, including newly qualified solicitor jobs, partner placements at both senior equity and fixed share levels and in-house legal team roles from General Counsel downward.</p>
                             </div>
                         </details>
                         <details class="qc-faq-item" name="faq">
                             <summary class="qc-faq-summary">
-                                Where does QC Legal operate?
+                                <span>
+                                    Where does QC Legal operate?
+                                </span>
                                 <div class="faq-icon-wrap"><i class="fa-solid fa-chevron-down"></i></div>
                             </summary>
                             <div class="qc-faq-content">
-                                <p>QC Legal is headquartered in London and also has a presence in Manchester, as well as coverage in the UAE, Hong Kong & Singapore.</p>
+                                <p>
+                                    QC Legal is headquartered in London and also has a presence in Manchester, as well as coverage in the UAE, Hong Kong & Singapore.
+                                </p>
                             </div>
                         </details>
                         <details class="qc-faq-item" name="faq">
                             <summary class="qc-faq-summary">
-                                How long has QC Legal been in the legal recruitment industry?
+                                <span>
+                                    How long has QC Legal been in the legal recruitment industry?
+                                </span>
                                 <div class="faq-icon-wrap"><i class="fa-solid fa-chevron-down"></i></div>
                             </summary>
                             <div class="qc-faq-content">
