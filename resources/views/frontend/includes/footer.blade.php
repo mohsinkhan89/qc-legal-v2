@@ -16,7 +16,7 @@
                         </p>
                         <button type="submit" class="ld_sf_submit flex items-center justify-center qc-bg-secondary-important border-white-20 text-white mt-10">
                             <span class="submit-text hidden sm:block">Subscribe</span>
-                            <span class="submit-icon">
+                            <span class="submit-icon" style="margin-left: 5px;">
                                 <i class="fa-solid fa-paper-plane icon-md-arrow-forward"></i>
                             </span>
                             <span class="ld-sf-spinner absolute">
