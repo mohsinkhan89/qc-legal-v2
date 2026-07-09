@@ -28,6 +28,7 @@ Route::controller(FrontEndController::class)->group(function () {
     Route::get('/blogs/{slug}', 'blogsDetail')->name('blogsDetail');
     Route::get('/contact-us', 'contact')->name('contact');
     Route::get('/book-a-call', 'bookACall')->name('bookACall');
+    Route::get('/london', 'london')->name('london');
     // Route::get('/jobs', 'jobs')->name('jobs');
     Route::get('/jobs/{filters?}', 'jobs')->where('filters', '.*')->name('jobs');
     Route::post('/jobs/get', 'jobGet')->name('jobGet');
