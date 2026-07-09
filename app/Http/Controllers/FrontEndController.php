@@ -37,6 +37,12 @@ class FrontEndController extends Controller
         ]));
     }
 
+    public function london()
+    {
+        $view = 'frontend.london';
+        return view($view);
+    }
+
     public function about()
     {
         $view = 'frontend.about';
